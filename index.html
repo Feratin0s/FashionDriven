@@ -15,16 +15,19 @@
 <!-- INICIO -->
 <body>
 <!-- POP -UP QUE VAI APARECER -->
-<div class="popup">
+<div id="popup" class="popup">
 <div class="general">
  <img src="./PHOTOS/16_3_4_442_Artboard20120copy209.webp" class="esquerda">
- <div class="direita">
+ <div class="direita" id="direita">
     <div><a>T-shirt com</a><a> gola redonda</a><a>de algodão</a></div>
     <div>Criador: <a>Jukes</a></div>
-    <div class="confirmarpedido"><p>Confirmar</p><p> pedido</p></div>
-    <div class="cancel"><a>Cancelar</a></div>
+    <div onclick="trocarpopup()" class="confirmarpedido"><p>Confirmar</p><p> pedido</p></div>
+    <div onclick="hide()" class="cancel"><a>Cancelar</a></div>
  </div>   
- <div class="direita2"></div>
+ <div class="direita2" id="direita2">
+    <div><a>Pedido feito</a><a> com sucesso!</a></div>
+    <div onclick="hide()" class="Close"><p>Fechar</p></div>
+ </div>
 </div>
 </div>
 <!-- INICIO DA BARRA SUPERIOR -->
@@ -82,7 +85,7 @@
         <input "type="text">
         </div>
     </div>
-    <div class="comprar"><a class="Confirm">Confirmar pedido</a></div>
+    <div class="comprar" id="comprar"><a class="Confirm">Confirmar pedido</a></div>
     </div>
     <!-- DIV VAZIA SO PARA FORMATACAO -->
     <div class="divazia"></div>
