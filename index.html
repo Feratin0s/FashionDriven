@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <!-- INICIO -->
 <body>
@@ -33,14 +33,40 @@
 <div class="LEFT">
     <div class="divazia"></div>
     <div class="selecao">
-        <div class="roupas">
-            <div class="modelo">Escolha seu modelo!</div>
+        <div class="roupas" id="roupas-1">
+            <div class="modelo">Escolha o modelo</div>
             <div class="selecionarroupas">
             <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="roupinhas" src="./PHOTOS/tshirt.png" alt="">      </div> <a class="denominacao">T-shirt</a> </div>  
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="roupinhas" src="./PHOTOS/Camiseta.png" alt="">    </div> <a class="denominacao">T-shirt</a> </div> 
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="roupinhas" src="./PHOTOS/Mangalonga.png" alt="">  </div> <a class="denominacao">T-shirt</a> </div> 
+            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="roupinhas" src="./PHOTOS/Camiseta.png" alt="">    </div> <a class="denominacao">Camiseta</a> </div> 
+            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="roupinhas" src="./PHOTOS/Mangalonga.png" alt="">  </div> <a class="denominacao">Manga longa</a> </div> 
             </div>
         </div>
+        <div class="roupas" id="roupas-2">
+            <div class="modelo">Escolha a gola</div>
+            <div class="selecionarroupas">
+            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="Gola" src="./PHOTOS/GolaV.png" alt="">      </div> <a class="denominacao">Gola V</a> </div>  
+            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="Gola" src="./PHOTOS/GolaRedonda.png" alt="">    </div> <a class="denominacao">Gola Redonda</a> </div> 
+            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="Gola" src="./PHOTOS/GolaPolo.png" alt="">  </div> <a class="denominacao">Gola polo</a> </div> 
+            </div>
+        </div>
+        <div class="roupas" id="roupas-3">
+            <div class="modelo">Escolha o tecido</div>
+            <div class="selecionarroupas">
+            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="tecido" src="./PHOTOS/Seda.png" alt="">      </div> <a class="denominacao">Seda</a> </div>  
+            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="tecido" src="./PHOTOS/Algodão.png" alt="">    </div> <a class="denominacao">Algodão</a> </div> 
+            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this)"> <img class="tecido" src="./PHOTOS/Poliester.png" alt="">  </div> <a class="denominacao">Poliéster</a> </div> 
+            </div>
+        </div>
+    <div class="reference">
+        <a class="">Imagem de referencia</a>
+        <div class="buscareference">
+        <p>
+        Insira o link
+        </p>
+        <input "type="text">
+        </div>
+    </div>
+    <div class="comprar"><a class="Confirm">Confirmar pedido</a></div>
     </div>
     <div class="divazia"></div>
 </div>

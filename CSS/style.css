@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #404EED;
 }
 
@@ -45,7 +45,7 @@ width: 100%px;
 
 /* DIV VAZIA PARA DAR ESPAÇO NO MEU BODY DA ESQUERDA*/
 .divazia{    
-background-color: green;
+background-color: white;
 width: 15%;
 height: 100%;
 }
@@ -70,7 +70,6 @@ background-color: white;
 
 .roupas {
 width: 100%;
-height: 25%;
 }
 
 .selecao .roupas {
@@ -81,24 +80,22 @@ font-size: 18px;
 font-weight: 400;
 color: #232323;
 width: 450px;
-margin:0 auto;
-margin-top: 10px;
+margin: 0 auto;
+margin-top: 25px;
 }
 
 .selecao .roupas .selecionarroupas{
-margin: 20px auto;
+margin: 10px auto;
 display: flex;
 width: 500px;
 }
 
 .containeroupa{
-background-color: #C4C4C4;
 width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background-color: aqua;
 }
 
 .selecao .roupas .circulo {
@@ -115,9 +112,69 @@ cursor: pointer;
 }
 
 .roupas .roupinhas{
-    width: 80px;
-    height: 80px;
+width: 80px;
+height: 80px;
 }
+
+.roupas .Gola{
+height: 80px;
+width: 80px;
+}
+
+.roupas .tecido{
+width: 60px;
+height: 60px;
+}
+
+.reference{
+margin: 0 auto;
+}
+
+.reference .buscareference{
+height: 40px;
+width: 396.27px;
+background-color: #F2F2F2;
+border-radius: 10px;
+border: 1px solid black;
+display: flex;
+align-items: center;
+}
+
+.reference .buscareference p{
+font-size: 14px;
+color: #818181;
+margin-left: 20px;
+margin-right: 10px;
+}
+
+.comprar {
+margin: 20px auto;
+background-color: #C4C4C4;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+width: 400px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.comprar.ativo {
+background-color: purple;
+cursor: pointer;
+}
+  
+.comprar.ativo:hover {
+background-color: darkpurple;
+}
+
+.denominacao{
+font-size: 18px;
+color: #232323;
+}
+
 .corpo .RIGHT{
 height: 100%;
 width: 50%;
