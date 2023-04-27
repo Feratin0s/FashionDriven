@@ -62,6 +62,35 @@ width: 50%;
 display: flex;
 }
 
+.corpo .LEFT .comprarealizada{
+height: 100%;
+width: 70%;
+background-color: white;
+display:none;
+align-items: center;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.corpo .LEFT .comprarealizada a:nth-child(1){
+font-size: 36px;
+color: #232323;
+margin-top: 60px;
+}
+
+.corpo .LEFT .comprarealizada a:nth-child(3){
+font-size: 20px;
+color: #404EED;
+margin-bottom: 60px;
+}
+
+
+.pogchamp{
+width: 436px;
+height: 524px;
+border-radius: 20px;
+}
+
 .corpo .LEFT .selecao{
 height: 100%;
 width: 70%;

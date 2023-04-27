@@ -45,11 +45,29 @@ document.getElementById("direita").style.display = "none";
 document.getElementById("direita2").style.display = "flex";
 }
 
+function comprado() {
+document.getElementById("popup").style.display = "none";
+document.getElementById("direita").style.display = "flex";
+document.getElementById("direita2").style.display = "none";
+document.getElementById("selecao").style.display = "none";
+document.getElementById("comprarealizada").style.display = "flex";
+//acionar outra funcao que vai retomar a pagina incial
+Tempinho();
+}
+
+function Tempinho() {
+setTimeout(function() {
+document.getElementById("selecao").style.display = "block";
+document.getElementById("comprarealizada").style.display = "none";
+mudarBorda();
+}, 10000);
+}
+
 function exibirMensagem(novaMensagem) {
-    mensagem = novaMensagem;
-    console.log(mensagem);
-    atualizarMensagemHTML();
-  }
+mensagem = novaMensagem;
+console.log(mensagem);
+atualizarMensagemHTML();
+}
   
 function atualizarMensagemHTML() {
 // Atualiza o conteúdo do elemento HTML
