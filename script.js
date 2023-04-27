@@ -19,10 +19,9 @@ opcoesRoupas[i].style.border = 'none';
 const botao = document.querySelector('.comprar');
 const opcoesSelecionadas = document.querySelectorAll('.selecionarroupas .circulo[style*="purple"]');
 if (opcoesSelecionadas.length === 3) {
-botao.style.backgroundColor = 'purple';
+botao.style.backgroundColor = '#404EED';
 botao.onclick = function() { alert('TESTANDO TESTANDO APAGAR DEPOIS'); }
 } else {
-botao.style.backgroundColor = 'gray';
 botao.onclick = null;
 }
 }
