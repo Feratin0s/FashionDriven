@@ -3,13 +3,13 @@ body{
     background-color: #404EED;
 }
 
-.negritotext{
+.user-name{
     font-weight: bold;
 }
 
 .topbar{
     height: 89px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
 }
 
 .centralizartopo {
@@ -37,3 +37,41 @@ body{
 .topbar .search .user{ 
 
  }
+
+.corpo{
+height: 785px;
+width: 100%px;
+}
+
+/* DIV VAZIA PARA DAR ESPAÇO NO MEU BODY DA ESQUERDA*/
+.divazia{    
+background-color: green;
+width: 10%;
+height: 100%;
+}
+
+.container{
+display: flex;
+height: 100%;
+width: 100%;
+}
+
+.corpo .LEFT{
+height: 100%;
+width: 50%;
+display: flex;
+}
+
+.corpo .LEFT .selecao{
+height: 100%;
+width: 80%;
+background-color: white;
+}
+
+.corpo .RIGHT{
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
