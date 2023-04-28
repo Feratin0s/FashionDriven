@@ -16,14 +16,30 @@ function isImage(url) {
     azul = /\.(jpg|jpeg|png|webp|avif|gif|svg)$/.test(url);
     if (azul !== true) {
         alert(`Envie um link válido`);
-        return false
+        // MENSAGEM DE ERROR
+        document.getElementById("ERROR").style.display = "flex";
+        document.getElementById("selecao").style.display = "none";
+        BUG();
+        return false;
     } else {
         estampaescolhida = url;
+        console.log(estampaescolhida);
         validar();
     }
 }
+//------------------------------------------------------------------------------------------------------
 
-
+function BUG() {
+    setTimeout(function () {
+        document.getElementById("ERROR").style.display = "none";
+        document.getElementById("selecao").style.display = "block";
+        refreshPage();
+    }, 10000);
+}
+// Código para dar reload na página
+function refreshPage() {
+    location.reload();
+}
 
 // -----------------------------------------------------------------------------------------------------
 
@@ -107,6 +123,7 @@ function Tempinho() {
     setTimeout(function () {
         document.getElementById("selecao").style.display = "block";
         document.getElementById("comprarealizada").style.display = "none";
+        refreshPage();
     }, 10000);
 }
 
@@ -140,7 +157,7 @@ function mostrarfoto(resposta) {
     }
 }
 
-function chamaClick(photo){
+function chamaClick(photo) {
     estampaescolhida = photo;
     Click();
 }
