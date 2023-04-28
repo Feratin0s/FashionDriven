@@ -1,13 +1,13 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #404EED;
 }
 
-.user-name{
+.user-name {
     font-weight: bold;
 }
 
-.topbar{
+.topbar {
     height: 89px;
     border-bottom: 1px solid black;
 }
@@ -20,11 +20,9 @@ body{
     margin: 0 40px;
 }
 
-.topbar .logo {
+.topbar .logo {}
 
-}
-
-.topbar .search{
+.topbar .search {
     height: 39px;
     width: 250px;
     background-color: #D9D9D9;
@@ -34,309 +32,316 @@ body{
     justify-content: center;
 }
 
-.topbar .search .user{ 
+.topbar .search .user {}
 
- }
-
-.corpo{
-height: 785px;
-width: 100%px;
+.corpo {
+    height: 785px;
+    width: 100%px;
 }
 
 /* DIV VAZIA PARA DAR ESPAÇO NO MEU BODY DA ESQUERDA*/
-.divazia{    
-background-color: white;
-width: 15%;
-height: 100%;
+.divazia {
+    width: 15%;
+    height: 100%;
+    background-color: white;
 }
 
-.container{
-display: flex;
-height: 100%;
-width: 100%;
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
-.corpo .LEFT{
-height: 100%;
-width: 50%;
-display: flex;
+.corpo .LEFT {
+    height: 100%;
+    width: 50%;
+    display: flex;
 }
 
-.corpo .LEFT .comprarealizada{
-height: 100%;
-width: 70%;
-background-color: white;
-display:none;
-align-items: center;
-flex-direction: column;
-justify-content: space-between;
+.corpo .LEFT .comprarealizada {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.corpo .LEFT .comprarealizada a:nth-child(1){
-font-size: 36px;
-color: #232323;
-margin-top: 60px;
+.corpo .LEFT .comprarealizada a:nth-child(1) {
+    font-size: 36px;
+    color: #232323;
+    margin-top: 60px;
 }
 
-.corpo .LEFT .comprarealizada a:nth-child(3){
-font-size: 20px;
-color: #404EED;
-margin-bottom: 60px;
+.corpo .LEFT .comprarealizada a:nth-child(3) {
+    font-size: 20px;
+    color: #404EED;
+    margin-bottom: 60px;
 }
 
 
-.pogchamp{
-width: 436px;
-height: 524px;
-border-radius: 20px;
+.pogchamp {
+    width: 436px;
+    height: 524px;
+    border-radius: 20px;
 }
 
-.corpo .LEFT .selecao{
-height: 100%;
-width: 70%;
-background-color: white;
+.corpo .LEFT .selecao {
+    height: 100%;
+    width: 70%;
+    background-color: white;
 }
 
 .roupas {
-width: 100%;
+    width: 100%;
 }
 
-.selecao .roupas {
+.selecao .roupas {}
+
+.modelo {
+    font-size: 18px;
+    font-weight: 400;
+    color: #232323;
+    width: 450px;
+    margin: 25px auto;
+    margin-top: 25px;
 }
 
-.modelo{
-font-size: 18px;
-font-weight: 400;
-color: #232323;
-width: 450px;
-margin: 25px auto;
-margin-top: 25px;
+.selecao .roupas .selecionarroupas {
+    margin: 10px auto;
+    display: flex;
+    width: 500px;
 }
 
-.selecao .roupas .selecionarroupas{
-margin: 10px auto;
-display: flex;
-width: 500px;
-}
-
-.containeroupa{
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+.containeroupa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .selecao .roupas .circulo {
-background-color: #F2F2F2;
-width: 100px;
-height: 100px;
-border-radius: 100%;
-border: 1px solid #C4C4C4;
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 0 25px;
-cursor: pointer;
+    background-color: #F2F2F2;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px;
+    cursor: pointer;
 }
 
-.roupas .roupinhas{
-width: 80px;
-height: 80px;
+.roupas .roupinhas {
+    width: 80px;
+    height: 80px;
 }
 
-.roupas .Gola{
-height: 80px;
-width: 80px;
+.roupas .Gola {
+    height: 80px;
+    width: 80px;
 }
 
-.roupas .tecido{
-width: 60px;
-height: 60px;
+.roupas .tecido {
+    width: 60px;
+    height: 60px;
 }
 
-.reference{
-margin: 25px auto;
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
+.reference {
+    margin: 25px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.reference .buscareference{
-height: 40px;
-width: 396.27px;
-background-color: #F2F2F2;
-border-radius: 10px;
-border: 1px;
-display: flex;
-align-items: center;
+.reference .buscareference {
+    height: 40px;
+    width: 396.27px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    border: 1px;
+    display: flex;
+    align-items: center;
 }
-.referencia{
-font-size: 18px;
-color: #232323;
-margin-left: -225px;
-margin-bottom: 10px;
+
+.referencia {
+    font-size: 18px;
+    color: #232323;
+    margin-left: -225px;
+    margin-bottom: 10px;
 }
-.reference .buscareference p{
-font-size: 14px;
-color: #818181;
-margin-left: 20px;
-margin-right: 10px;
+
+.reference .buscareference p {
+    font-size: 14px;
+    color: #818181;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .comprar {
-margin: 20px auto;
-background-color: #C4C4C4;
-color: white;
-border: none;
-padding: 10px 20px;
-border-radius: 5px;
-width: 400px;
-height: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-cursor: pointer;
+    margin: 20px auto;
+    background-color: #C4C4C4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
-  
+
 .comprar.ativo {
-background-color: purple;
-cursor: pointer;
+    background-color: purple;
+    cursor: pointer;
 }
-  
+
 .comprar.ativo:hover {
-background-color: darkpurple;
+    background-color: darkpurple;
 }
 
-.denominacao{
-font-size: 18px;
-color: #232323;
+.denominacao {
+    font-size: 18px;
+    color: #232323;
 }
 
-.corpo .RIGHT{
-height: 100%;
-width: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
+.corpo .RIGHT {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* INICO DA PARTE DE BAIXO DO MEU SITE */
 
-.bottompart{
-background-color: #F2F2F2;
-height: 421px;
-width: 100%;
-display: flex;
+.bottompart {
+    background-color: #F2F2F2;
+    height: 700px;
+    width: 100%;
+    display: flex;
 }
 
-.bottompart .divazia2{
-height: 100%;
-width: 9.22%;
+.bottompart .divazia2 {
+    height: 100%;
+    width: 9.22%;
 }
 
 .lastorders {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-.lastorders .opcao .pedidos{
-margin:30px 0px;
+.lastorders .opcao .pedidos {
+    margin: 30px 0px;
 }
 
-.lastorders .opcao .pedidos a{
-color: #232323;
-font-size: 24px;
+.lastorders .opcao .pedidos a {
+    color: #232323;
+    font-size: 24px;
 }
 
-.lastorders .opcao .containermodelos{
-display: flex;
-width: 650px;
-justify-content: space-between;
-align-items: center;
+.lastorders .opcao .containermodelos {
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.lastorders .opcao .containermodelos .models{
-background-color: #404EED;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 30px;
-width: 200px;
-font-size: 20px;
-color: #FCFCFC;
-cursor: pointer;
+.lastorders .opcao .containermodelos .models {
+    background-color: #404EED;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    color: #FCFCFC;
+    cursor: pointer;
 }
 
 .lastorders .opcao .containermodelos .tshirt {
-background-color: #C4C4C4;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 30px;
-width: 80px;
-font-size: 20px;
-color: #FCFCFC;
-cursor: pointer;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    color: #FCFCFC;
+    cursor: pointer;
 }
 
 .lastorders .opcao .containermodelos .camiseta {
-background-color: #C4C4C4;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 30px;
-width: 100px;
-font-size: 20px;
-color: #FCFCFC;
-cursor: pointer;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    color: #FCFCFC;
+    cursor: pointer;
 }
 
-.lastorders .opcao .containermodelos .mangalonga{
-background-color: #C4C4C4;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 30px;
-width: 140px;
-font-size: 20px;
-color: #FCFCFC;
-cursor: pointer;
-}
-.bottompart .maiorcriador{
-display: flex;
-width: 80%;
-justify-content: space-between;
-align-items: center;
+.lastorders .opcao .containermodelos .mangalonga {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 140px;
+    font-size: 20px;
+    color: #FCFCFC;
+    cursor: pointer;
 }
 
-.bottompart .maiorcriador .criador{
-margin-top: 30px;
-height: 240px;
-width: 220px;
-background-color: #FFFFFF;
-border-radius: 10px;
-display: flex;
-flex-direction: column;
-font-size: 20px;
-color: #232323;
-justify-content: center;
-align-items: center;
-}
-.bottompart .maiorcriador .criador div{
-margin-top: 10px;
-}
-.bottompart .maiorcriador .criador a{
-font-weight: bold;
+.bottompart .maiorcriador {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.bottompart .maiorcriador .criador .camisa{
-height: 190px;
-width: 195px;
-border-radius: 5px;
+.bottompart .maiorcriador .criador {
+    margin-top: 30px;
+    height: 240px;
+    width: 220px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #232323;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottompart .maiorcriador .criador div {
+    margin-top: 10px;
+}
+
+.bottompart .maiorcriador .criador a {
+    font-weight: bold;
+}
+
+.bottompart .maiorcriador .criador .camisa {
+    height: 190px;
+    width: 195px;
+    border-radius: 5px;
+}
+
+.soonome{
+display: none;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,129 +14,151 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <!-- INICIO -->
+
 <body>
-<!-- POP -UP QUE VAI APARECER -->
-<div id="popup" class="popup">
-<div class="general">
- <img src="./PHOTOS/16_3_4_442_Artboard20120copy209.webp" class="esquerda">
- <div class="direita" id="direita">
-    <div><a class="enviarmensagem"></a></div>
-    <div>Criador: <a>Jukes</a></div>
-    <div onclick="trocarpopup()" class="confirmarpedido"><p>Confirmar</p><p> pedido</p></div>
-    <div onclick="hide()" class="cancel"><a>Cancelar</a></div>
- </div>   
- <div class="direita2" id="direita2">
-    <div><a>Pedido feito</a><a> com sucesso!</a></div>
-    <div onclick="comprado()" class="Close"><p>Fechar</p></div>
- </div>
-</div>
-</div>
-<!-- INICIO DA BARRA SUPERIOR -->
-<div class="topbar">
-    <div class="centralizartopo">
-    <div class="logo">
-        <img src="./PHOTOS/Logo.png">
-    </div>
-    <!-- BARRA DE PESQUISA -->
-    <div class="search"> 
-        <div class="user">
-            <a>Olá, <a class="user-name">Usuario</a>!</a>
-    </div>
- </div>
-</div>
-</div>
-<!-- BODY START DO MEU PROJETO -->
-<div class="corpo">
-<div class="container">
-<!--LADO ESQUERDO DO SITE -->
-<div class="LEFT">
-    <!-- DIV VAZIA SO PARA FORMATACAO -->
-    <div class="divazia"></div>
-    <!-- APARECE AO FECHAR O PEDIDO -->
-    <div id="comprarealizada" class="comprarealizada"> 
-    <a>Pedido feito com sucesso!</a>
-    <img src="./PHOTOS/16_3_4_442_Artboard20120copy209.webp" class="pogchamp">
-    <a>Voltando para a página principal em 10s</a>
-    </div>
-     <!-- -->
-     <!-- -->
-     <!-- -->
-     <!-- -->
-    <div id="selecao" class="selecao">
-        <div class="roupas" id="roupas-1">
-            <div class="modelo">Escolha o modelo</div>
-            <div class="selecionarroupas">
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this, 'T-shirt')"> <img class="roupinhas" src="./PHOTOS/tshirt.png" alt="">      </div> <a class="denominacao">T-shirt</a> </div>  
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this, 'Camiseta')"> <img class="roupinhas" src="./PHOTOS/Camiseta.png" alt="">    </div> <a class="denominacao">Camiseta</a> </div> 
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this, 'Manga longa')"> <img class="roupinhas" src="./PHOTOS/Mangalonga.png" alt="">  </div> <a class="denominacao">Manga longa</a> </div> 
+    <div class="inteira">
+        <!-- POP -UP QUE VAI APARECER -->
+        <div id="popup" class="popup">
+        </div>
+        <!-- INICIO DA BARRA SUPERIOR -->
+        <div class="topbar">
+            <div class="centralizartopo">
+                <div class="logo">
+                    <img src="./PHOTOS/Logo.png">
+                </div>
+                <!-- BARRA DE PESQUISA -->
+                <div class="search">
+                    <div class="user">
+                        <a>Olá, <a class="user-name">Usuario</a>!</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="roupas" id="roupas-2">
-            <div class="modelo">Escolha a gola</div>
-            <div class="selecionarroupas">
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this, 'Gola V')"> <img class="Gola" src="./PHOTOS/GolaV.png" alt="">      </div> <a class="denominacao">Gola V</a> </div>  
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this, 'Gola Redonda')"> <img class="Gola" src="./PHOTOS/GolaRedonda.png" alt="">    </div> <a class="denominacao">Gola Redonda</a> </div> 
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this, 'Gola Polo')"> <img class="Gola" src="./PHOTOS/GolaPolo.png" alt="">  </div> <a class="denominacao">Gola polo</a> </div> 
+        <!-- BODY START DO MEU PROJETO -->
+        <div class="corpo">
+            <div class="container">
+                <!--LADO ESQUERDO DO SITE -->
+                <div class="LEFT">
+                    <!-- DIV VAZIA SO PARA FORMATACAO -->
+                    <div class="divazia"></div>
+                    <!-- APARECE AO FECHAR O PEDIDO -->
+                    <div id="comprarealizada" class="comprarealizada">
+                        <a>Pedido feito com sucesso!</a>
+                        <div id="soonome" class="soonome">
+                            <!-- ENTRA JAVASCRIPT -->
+                        </div>
+                        <a>Voltando para a página principal em 10s</a>
+                    </div>
+                    <!-- -->
+                    <!-- -->
+                    <!-- -->
+                    <!-- -->
+                    <div id="selecao" class="selecao">
+                        <div class="roupas" id="roupas-1">
+                            <div class="modelo">Escolha o modelo</div>
+                            <div class="selecionarroupas">
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this, 'T-shirt')"> <img class="roupinhas"
+                                            src="./PHOTOS/tshirt.png" alt=""> </div> <a class="denominacao">T-shirt</a>
+                                </div>
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this, 'Camiseta')"> <img class="roupinhas"
+                                            src="./PHOTOS/Camiseta.png" alt=""> </div> <a
+                                        class="denominacao">Camiseta</a>
+                                </div>
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this, 'Manga longa')"> <img
+                                            class="roupinhas" src="./PHOTOS/Mangalonga.png" alt=""> </div> <a
+                                        class="denominacao">Manga
+                                        longa</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roupas" id="roupas-2">
+                            <div class="modelo">Escolha a gola</div>
+                            <div class="selecionarroupas">
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this, 'Gola V')"> <img class="Gola"
+                                            src="./PHOTOS/GolaV.png" alt=""> </div> <a class="denominacao">Gola V</a>
+                                </div>
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this, 'Gola Redonda')"> <img class="Gola"
+                                            src="./PHOTOS/GolaRedonda.png" alt=""> </div> <a class="denominacao">Gola
+                                        Redonda</a>
+                                </div>
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this, 'Gola Polo')"> <img class="Gola"
+                                            src="./PHOTOS/GolaPolo.png" alt=""> </div> <a class="denominacao">Gola
+                                        polo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roupas" id="roupas-3">
+                            <div class="modelo">Escolha o tecido</div>
+                            <div class="selecionarroupas">
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this,'Seda')"> <img class="tecido"
+                                            src="./PHOTOS/Seda.png" alt=""> </div> <a class="denominacao">Seda</a>
+                                </div>
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this,'Algodão')"> <img class="tecido"
+                                            src="./PHOTOS/Algodão.png" alt=""> </div> <a class="denominacao">Algodão</a>
+                                </div>
+                                <div class="containeroupa">
+                                    <div class="circulo" onclick="mudarBorda(this,'Poliester')"> <img class="tecido"
+                                            src="./PHOTOS/Poliester.png" alt=""> </div> <a
+                                        class="denominacao">Poliéster</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reference">
+                            <a class="referencia">Imagem de referência</a>
+                            <div class="buscareference">
+                                <input class="buscareference" type="text" placeholder="Insira o seu link"
+                                    onchange="isImage(this.value)" />
+                            </div>
+                        </div>
+                        <div class="comprar" id="comprar"><a class="Confirm">Confirmar pedido</a></div>
+                    </div>
+                    <!-- DIV VAZIA SO PARA FORMATACAO -->
+                    <div class="divazia"></div>
+                </div>
+                <!--LADO DIREITO DO SITE -->
+                <div class="RIGHT"><img src="./PHOTOS/ilustração.png" class="avatar" alt=""></div>
             </div>
         </div>
-        <div class="roupas" id="roupas-3">
-            <div class="modelo">Escolha o tecido</div>
-            <div class="selecionarroupas">
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this,'Seda')"> <img class="tecido" src="./PHOTOS/Seda.png" alt="">      </div> <a class="denominacao">Seda</a> </div>  
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this,'Algodão')"> <img class="tecido" src="./PHOTOS/Algodão.png" alt="">    </div> <a class="denominacao">Algodão</a> </div> 
-            <div class="containeroupa"><div class="circulo" onclick="mudarBorda(this,'Poliester')"> <img class="tecido" src="./PHOTOS/Poliester.png" alt="">  </div> <a class="denominacao">Poliéster</a> </div> 
+        <!--INICIO DA PARTE DE BAIXO SITE -->
+        <div class="bottompart">
+            <!-- DIV VAZIA SO PARA FORMATACAO -->
+            <div class="divazia2"></div>
+            <!-- INICIO DO PEDIDOS -->
+            <div class="lastorders">
+                <!-- OPCOES ESCRITAS -->
+                <div class="opcao">
+                    <div class="pedidos"><a>Últimos pedidos</a></div>
+                    <div class="containermodelos">
+                        <div class="models">
+                            <p>Todos os modelos</p>
+                        </div>
+                        <div class="tshirt">
+                            <p>T-shirt</p>
+                        </div>
+                        <div class="camiseta">
+                            <p>Camiseta</p>
+                        </div>
+                        <div class="mangalonga">Manga longa</div>
+                    </div>
+                </div>
+                <!-- CONTAINER MAIOR PARA AS IMAGENS, FIQUEI COM PREGUICA DE PENSAR EM UM NOME-->
+                <div id="maiorcriador" class="maiorcriador">
+                </div>
+                <!-- FECHA A DIV LASTORDERS -->
             </div>
-        </div>
-    <div class="reference">
-        <a class="referencia">Imagem de referência</a>
-        <div class="buscareference">
-        <p>
-        Insira o link
-        </p>
-        <input "type="text">
+            <!-- DIV VAZIA SO PARA FORMATACAO -->
+            <div class="divazia2"></div>
         </div>
     </div>
-    <div class="comprar" id="comprar"><a class="Confirm">Confirmar pedido</a></div>
-    </div>
-    <!-- DIV VAZIA SO PARA FORMATACAO -->
-    <div class="divazia"></div>
-</div>
-<!--LADO DIREITO DO SITE -->
-<div class="RIGHT"><img src="./PHOTOS/ilustração.png" class="avatar" alt=""></div>
-</div>
-</div>
-<!--INICIO DA PARTE DE BAIXO SITE -->
-<div class="bottompart">
-    <!-- DIV VAZIA SO PARA FORMATACAO -->
-    <div class="divazia2"></div>
-    <!-- INICIO DO PEDIDOS -->
-    <div class="lastorders">
-    <!-- OPCOES ESCRITAS -->
-    <div class="opcao">
-    <div class="pedidos"><a>Últimos pedidos</a></div>
-    <div class="containermodelos">
-    <div class="models"><p>Todos os modelos</p></div>
-    <div class="tshirt"><p>T-shirt</p></div>
-    <div class="camiseta"><p>Camiseta</p></div>
-    <div class="mangalonga">Manga longa</div>
-    </div>
-    </div>
-    <!-- CONTAINER MAIOR PARA AS IMAGENS, FIQUEI COM PREGUICA DE PENSAR EM UM NOME-->
-    <div class="maiorcriador">
-    <!-- COLOCAR AS IMAGENS -->
-    <div class="criador"><img class="camisa" src="./PHOTOS/16_3_4_442_Artboard20120copy209.webp"><div><a>Criador: </a>Jukes</div></div>
-    <!-- A imagem estava mal dimensionada -->
-    <div class="criador"><img class="camisa" src="./PHOTOS/mazza_8709-Edit.webp"><div><a>Criador: </a>Dynquedo</div></div>
-     <!-- A imagem estava mal dimensionada -->
-    <div class="criador"><img class="camisa" src="./PHOTOS/9_3_3_389_blusao20masculina20preto60.webp"><div><a>Criador: </a>Davi</div></div>
-    <div class="criador"><img class="camisa" src="./PHOTOS/hojecomeremoscu.webp"><div><a>Criador: </a>Jukes</div></div>
-    <div class="criador"><img class="camisa" src="./PHOTOS/9_3_0_069_CAMISETA20RAGLAN20BRANCA20FEMININA2065.webp"><div><a>Criador(a): </a>Sarah</div></div>
-    </div>
-    <!-- FECHA A DIV LASTORDERS -->
-    </div>
-    <!-- DIV VAZIA SO PARA FORMATACAO -->
-    <div class="divazia2"></div>
-</div>
-<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
